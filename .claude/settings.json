@@ -1,0 +1,44 @@
+{
+  "permissionMode": "auto",
+  "permissions": {
+    "allow": [
+      "Read(/Users/pranavgupta/VSCodeProjects/ReactTemplate/**)",
+      "Edit(/Users/pranavgupta/VSCodeProjects/ReactTemplate/**)",
+      "Write(/Users/pranavgupta/VSCodeProjects/ReactTemplate/**)",
+      "Bash(cd /Users/pranavgupta/VSCodeProjects/ReactTemplate*)",
+      "Bash(npm *)",
+      "Bash(npx *)",
+      "Bash(git *)",
+      "Bash(ls *)",
+      "Bash(mkdir *)",
+      "Bash(rm *)",
+      "Bash(mv *)",
+      "Bash(cp *)",
+      "Bash(cat *)",
+      "Bash(node *)",
+      "Bash(sleep *)",
+      "WebFetch(https://github.com/pranavgupta55/ReactTemplate*)",
+      "WebFetch(https://api.github.com/repos/pranavgupta55/ReactTemplate*)",
+      "WebFetch(https://reactbits.dev*)",
+      "WebFetch(https://tailwindcss.com*)",
+      "WebFetch(https://www.npmjs.com*)",
+      "WebSearch(*)"
+    ],
+    "deny": [
+      "Read(~/.ssh/**)",
+      "Read(~/.aws/**)",
+      "Read(~/.config/**)",
+      "Read(/Users/pranavgupta/VSCodeProjects/ReactTemplate/.env)",
+      "Read(/Users/pranavgupta/**)",
+      "Edit(/Users/pranavgupta/**)",
+      "Write(/Users/pranavgupta/**)",
+      "Bash(sudo *)",
+      "Bash(rm -rf /*)",
+      "Bash(rm -rf ~/*)",
+      "Bash(curl * | bash)",
+      "Bash(wget * | bash)",
+      "WebFetch(https://github.com/pranavgupta55/*)",
+      "WebFetch(https://api.github.com/repos/pranavgupta55/*)"
+    ]
+  }
+}

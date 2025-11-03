@@ -34,20 +34,21 @@ export function Contact() {
       <BlobCursor />
       <Navbar />
 
-      <div className="mx-auto max-w-4xl px-4 py-24 sm:px-6 lg:px-8">
+      <div className="mx-auto max-w-6xl px-4 py-24 sm:px-6 lg:px-8">
         <FadeIn>
-          <h1 className="mb-4 text-center text-5xl font-bold">
+          <h1 className="mb-6 text-center text-6xl font-bold">
             <GradientText>Get In Touch</GradientText>
           </h1>
-          <p className="mb-12 text-center text-xl text-gray-600 dark:text-gray-400">
-            Have a question or want to work together? Drop us a message!
+          <p className="mx-auto mb-16 max-w-2xl text-center text-xl text-gray-600 dark:text-gray-400">
+            Have a question or want to work together? We'd love to hear from you!
           </p>
         </FadeIn>
 
         <div className="grid gap-12 lg:grid-cols-2">
           {/* Contact Form */}
           <FadeIn delay={0.2}>
-            <div className="rounded-2xl border border-gray-200 bg-white p-8 shadow-xl dark:border-gray-800 dark:bg-gray-900">
+            <div className="rounded-3xl border-2 border-gray-200 bg-gradient-to-br from-white to-gray-50 p-10 shadow-2xl dark:border-gray-800 dark:from-gray-900 dark:to-gray-950">
+              <h2 className="mb-8 text-2xl font-bold">Send us a message</h2>
               <form onSubmit={handleSubmit} className="space-y-6">
                 <div>
                   <label htmlFor="name" className="block text-sm font-medium text-gray-700 dark:text-gray-300">
@@ -114,8 +115,8 @@ export function Contact() {
 
           {/* Contact Info */}
           <FadeIn delay={0.4}>
-            <div className="space-y-8">
-              <div className="rounded-2xl border border-gray-200 bg-white p-6 shadow-xl dark:border-gray-800 dark:bg-gray-900">
+            <div className="space-y-6">
+              <div className="group rounded-3xl border-2 border-gray-200 bg-gradient-to-br from-white to-gray-50 p-8 shadow-xl transition-all hover:scale-105 hover:shadow-2xl dark:border-gray-800 dark:from-gray-900 dark:to-gray-950">
                 <div className="mb-4 text-4xl">📧</div>
                 <h3 className="mb-2 text-xl font-semibold">Email</h3>
                 <a
@@ -126,7 +127,7 @@ export function Contact() {
                 </a>
               </div>
 
-              <div className="rounded-2xl border border-gray-200 bg-white p-6 shadow-xl dark:border-gray-800 dark:bg-gray-900">
+              <div className="group rounded-3xl border-2 border-gray-200 bg-gradient-to-br from-white to-gray-50 p-8 shadow-xl transition-all hover:scale-105 hover:shadow-2xl dark:border-gray-800 dark:from-gray-900 dark:to-gray-950">
                 <div className="mb-4 text-4xl">🌐</div>
                 <h3 className="mb-2 text-xl font-semibold">Social Media</h3>
                 <div className="space-y-2">
@@ -157,7 +158,7 @@ export function Contact() {
                 </div>
               </div>
 
-              <div className="rounded-2xl border border-gray-200 bg-white p-6 shadow-xl dark:border-gray-800 dark:bg-gray-900">
+              <div className="group rounded-3xl border-2 border-gray-200 bg-gradient-to-br from-white to-gray-50 p-8 shadow-xl transition-all hover:scale-105 hover:shadow-2xl dark:border-gray-800 dark:from-gray-900 dark:to-gray-950">
                 <div className="mb-4 text-4xl">⏰</div>
                 <h3 className="mb-2 text-xl font-semibold">Response Time</h3>
                 <p className="text-gray-600 dark:text-gray-400">
