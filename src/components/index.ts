@@ -1,4 +1,5 @@
 // Export all components from a central location
+export { AppSidebar } from './AppSidebar'
 export { BlobCursor } from './BlobCursor'
 export { Carousel } from './Carousel'
 export { CubesBackground } from './CubesBackground'
@@ -10,3 +11,4 @@ export { GradientText } from './GradientText'
 export { InfiniteScroll } from './InfiniteScroll'
 export { LoginForm } from './LoginForm'
 export { Navbar } from './Navbar'
+export { TiltCard } from './TiltCard'

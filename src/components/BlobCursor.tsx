@@ -26,10 +26,10 @@ export function BlobCursor() {
 
   return (
     <motion.div
-      className="pointer-events-none fixed z-50 h-8 w-8 rounded-full bg-primary-500/30 blur-xl"
+      className="pointer-events-none fixed z-50 h-32 w-32 rounded-full bg-gradient-to-r from-primary-500/40 via-secondary-500/40 to-accent-500/40 blur-3xl"
       animate={{
-        x: mousePosition.x - 16,
-        y: mousePosition.y - 16,
+        x: mousePosition.x - 64,
+        y: mousePosition.y - 64,
       }}
       transition={{
         type: 'spring',
